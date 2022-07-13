@@ -9,6 +9,10 @@ int min = a;
 
 if (b < a) min = b;
 
+Console.WriteLine("max = ");
+
 Console.WriteLine(max);
+
+Console.WriteLine("min = ");
 
 Console.WriteLine(min);
