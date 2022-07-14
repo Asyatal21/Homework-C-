@@ -2,17 +2,18 @@
 //int b = 3; 
 //int c = 7;
 
-int a = new Random().Next(1,100);
 
-Console.WriteLine(a);
+Console.WriteLine("Введите число");
 
-int b = new Random().Next(1,100);
+int a = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(b);
+Console.WriteLine("Введите число");
 
-int c = new Random().Next(1,10);
+int b = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine(c);
+Console.WriteLine("Введите число");
+
+int c = Convert.ToInt32(Console.ReadLine());
 
 int max = a;
 
