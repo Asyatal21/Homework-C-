@@ -1,8 +1,9 @@
-﻿int numberA = new Random().Next(1,10);
+﻿
+Console.WriteLine("Введите число");
 
-Console.WriteLine(numberA);
+int a = Convert.ToInt32(Console.ReadLine());
 
-if (numberA % 2 == 0)
+if (a % 2 == 0)
 
 {
 
